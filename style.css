@@ -1,0 +1,173 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #3E6B89;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header h1 {
+  font-size: 42px;
+  color: #3DD2CC;
+}
+header p {
+  font-size: 30px;
+  text-align: center;
+}
+
+main .line {
+  background-color: #3DD2CC;
+  width: 80%;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+main h3 {
+  font-size: 30px;
+  color: #3DD2CC;
+}
+main p {
+  font-size: 15px;
+}
+
+.firstSection {
+  width: 50%;
+  display: flex;
+  transform: translateX(50%);
+  margin-top: 30px;
+}
+.firstSection img {
+  width: 30%;
+  height: 30%;
+  border-radius: 15px 0px;
+}
+
+.secondSection {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+.secondSection .date {
+  color: #3DD2CC;
+  font-size: 15px;
+  font-weight: 400;
+}
+.secondSection .collapsible {
+  background-color: #eee;
+  color: #3E6B89;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 10px;
+}
+.secondSection .active, .secondSection .collapsible:hover {
+  background-color: #e9e9e9;
+}
+.secondSection .content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  border-radius: 0px 0px 15px 15px;
+}
+.secondSection .formation .title {
+  font-size: 20px;
+}
+.secondSection .formation div {
+  background-color: #f1f1f1;
+  padding: 3px 18px;
+  border-radius: 15px 0px;
+  margin-top: 10px;
+}
+
+.thirdSection {
+  margin-top: 100px;
+  text-align: center;
+}
+.thirdSection .competences {
+  text-align: center;
+}
+
+.contact {
+  background-color: #e9e9e9;
+}
+.contact h3 {
+  padding-top: 10px;
+  text-align: center;
+  color: #3DD2CC;
+}
+.contact .coordonees {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.contact .coordonees div {
+  display: flex;
+  align-items: center;
+}
+.contact .coordonees img {
+  width: 20px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  border-radius: 0px 15px;
+  background-color: rgba(0, 0, 0, 0.6); /* Fallback color */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border-radius: 15px 0px;
+  width: 80%;
+}
+.modal-content div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.modal-content img {
+  width: 5%;
+}
+.modal-content a {
+  font-size: 15px;
+  color: #3E6B89;
+  text-decoration: none;
+}
+.modal-content a:hover {
+  color: #3DD2CC;
+}
+
+/* The Close Button */
+.close {
+  color: #3DD2CC;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
