@@ -25,15 +25,14 @@
             <div class="firstSection">
                 <article class="profil">
                     <h3>PROFIL</h3>
-                    <p>Désireuse de développer constamment mes compétences afin d'assurer mon évolution professionnelle,
-                        je suis confiante en ma capacité à proposer des idées intéressantes pour des campagnes
-                        publicitaires inoubliables.</p>
+                    <p>Je me démarque par ma curiosité sans limites et mon organisation rigoureuse. Toujours
+                        avide d'apprendre, j'allie curiosité et créativité pour explorer de nouvelles dimensions.</p>
                     <button id="myBtn">Me contacter</button>
                     <div id="myModal" class="modal">
                         <div class="modal-content">
                             <span class="close">&times;</span>
                             <div>
-                                <img src="img/git.png" alt="git">
+                                <img src="img/phone.png" alt="phone">
                                 <p>06 48 49 13 70</p>
                             </div>
                             <div>
@@ -41,12 +40,12 @@
                                 <a href="https://github.com/Ju0Am">Ju0Am</a>
                             </div>
                             <div>
-                                <img src="img/git.png" alt="git">
+                                <img src="img/mail.png" alt="mail">
                                 <p>julieamelin33@gmail.com</p>
                             </div>
                             <div>
-                                <img src="img/git.png" alt="git">
-                                <p>130 boulevard du massacre, Saint Herblain</p>
+                                <img src="img/loc.png" alt="loc">
+                                <p>Saint Herblain</p>
                             </div>
                         </div>
                     </div>
@@ -66,12 +65,13 @@
                     <button type="button" class="collapsible">Projet Personnel - Développement web</button>
                     <div class="content">
                         <p class="date">2023</p>
-                        <p>Développement site portfolio / site vitrine.</p>
+                        <p>Développement site portfolio en HTML -- CSS -- JS</p>
+                        <p>Développement jeu memory en HTML -- SCSS -- JS</p>
                     </div>
                     <button type="button" class="collapsible">Kwark - Motion Design / Montage Vidéo</button>
                     <div class="content">
                         <p class="date">FREELANCE -- Juin 2022 - Novembre 2023</p>
-                        <p>Réalisation de montage / habillage vidéo pour une société de formation en ligne.</p>
+                        <p>Montage / habillage vidéo pour une société de formation en ligne.</p>
                     </div>
                     <button type="button" class="collapsible">Titan Studio / Holly Fx - Web design</button>
                     <div class="content">
@@ -103,15 +103,19 @@
                 <article class="competences">
                     <div>
                         <h4>Languages</h4>
-                        <p>Java | PHP | XML | HTML5 | CSS | JavaScript</p>
+                        <p>Java 11&17 | PHP 7&8 | XML | HTML5 | CSS | JavaScript</p>
                     </div>
                     <div>
                         <h4>Plateformes / Framework</h4>
-                        <p>Java SE | Java Spring Boot | Bootstrap | JQuery</p>
+                        <p>Java SE | Java Spring Boot | Bootstrap | JQuery | Angular | Symfony 5.4&6</p>
                     </div>
                     <div>
                         <h4>Bases de données</h4>
-                        <p>SQLServer</p>
+                        <p>SQLServer | MySQL</p>
+                    </div>
+                    <div>
+                        <h4>CMS</h4>
+                        <p>WordPress</p>
                     </div>
                 </article>
             </div>
@@ -123,7 +127,7 @@
         <article class="coordonees">
 
             <div>
-                <img src="img/git.png" alt="git">
+                <img src="img/phone.png" alt="phone">
                 <p>06 48 49 13 70</p>
             </div>
             <div>
@@ -131,11 +135,11 @@
                 <p>Ju0Am</p>
             </div>
             <div>
-                <img src="img/git.png" alt="git">
+                <img src="img/mail.png" alt="mail">
                 <p>julieamelin33@gmail.com</p>
             </div>
             <div>
-                <img src="img/git.png" alt="git">
+                <img src="img/loc.png" alt="loc">
                 <p>130 boulevard du massacre, Saint Herblain</p>
             </div>
     </footer>
